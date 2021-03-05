@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "proper_mobcap_modifier",
+  "version": "${version}",
+  "name": "Proper Mobcap Modifier",
+  "description": "Compatible mob cap editing",
+  "authors": ["vlad2305m"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/proper_mobcap_modifier/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.vlad2305m.proper_mobcap_modifier.Proper_mobcap_modifier"
+    ]
+  },
+  "mixins": [
+    "proper_mobcap_modifier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
