@@ -24,7 +24,7 @@ public class ConfigManager {
     }
 
     public static boolean isConfigUsable() {
-        return getConfig() != null && getConfig().isEnabled();
+        return holder != null && getConfig().isEnabled();
     }
 
     public static void reload() {
