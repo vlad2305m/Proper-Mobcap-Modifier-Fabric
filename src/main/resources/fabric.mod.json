@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "proper_mobcap_modifier",
+  "id": "proper-mobcap-modifier",
   "version": "${version}",
   "name": "Proper Mobcap Modifier",
   "description": "Compatible mob cap editing",
@@ -11,13 +11,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.vlad2305m.proper_mobcap_modifier.Proper_mobcap_modifier"
+      "com.vlad2305m.propermobcapmodifier.ProperMobcapModifier"
     ]
   },
   "mixins": [
-    "proper_mobcap_modifier.mixins.json"
+    "proper-mobcap-modifier.mixins.json"
   ],
   "depends": {
+    "autoconfig1u": ">=3.0.0",
     "fabricloader": ">=0.11.2",
     "minecraft": "1.17.x"
   }

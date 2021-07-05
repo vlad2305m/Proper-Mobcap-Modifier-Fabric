@@ -1,13 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8.2",
-  "package": "com.vlad2305m.proper_mobcap_modifier.mixin",
+  "package": "com.vlad2305m.propermobcapmodifier.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "ReloadMixin",
+    "ReloadCommandMixin",
     "SpawnGroupMixin"
-  ],
-  "client": [
   ],
   "injectors": {
     "defaultRequire": 1
