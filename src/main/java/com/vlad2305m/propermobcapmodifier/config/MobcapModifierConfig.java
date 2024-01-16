@@ -35,37 +35,37 @@ public class MobcapModifierConfig implements ConfigData {
     @Comment("""
             
             
-            Spawn groups as of 1.19.3:
+            Spawn groups as of 1.20.1 (124 types):
             
-            water_creature: dolphin, squid.
+            water_creature(2): dolphin, squid.
             
-            underground_water_creature: glow_squid. yay! Minecraft ecosystem is so diverse...
+            underground_water_creature(1): glow_squid. yay! Minecraft ecosystem is so diverse...
             
-            ambient: bat, just bat. Do you really need 15 bats?
+            ambient(1): bat, just bat. Do you really need 15 bats?
             
-            axolotls: axolotl. Elementary, my dear Watson.
+            axolotls(1): axolotl. Elementary, my dear Watson.
             
-            creature: allay, bee, cat, camel, chicken, cow, donkey, fox, frog, goat, horse, llama, mule, mooshroom, ocelot,\040
-            panda, parrot, pig, polar_bear, rabbit, sheep, skeleton_horse, strider, tadpole, trader_llama (because it WILL despawn),\040
+            creature(30): allay, bee, cat, camel, chicken, cow, donkey, fox, frog, goat, horse, llama, mule, mooshroom, ocelot,\040
+            panda, parrot, pig, polar_bear, rabbit, sheep, skeleton_horse, sniffer, strider, tadpole, trader_llama (because it WILL despawn),\040
             turtle, wandering_trader (nowhere near villagers), wolf, zombie_horse.
             
-            water_ambient: cod, pufferfish, salmon, tropical_fish.
+            water_ambient(4): cod, pufferfish, salmon, tropical_fish.
             
-            monster: blaze, cave_spider, creeper, drowned, elder_guardian, ender_dragon, enderman, endermite, evoker, ghast,\040
+            monster(37): blaze, cave_spider, creeper, drowned, elder_guardian, ender_dragon, enderman, endermite, evoker, ghast,\040
             giant, guardian, hoglin, husk, illusioner, magma_cube, phantom, piglin, piglin_brute, pillager, ravager, shulker,\040
             silverfish, skeleton, slime, spider, stray, vex, vindicator, warden, witch, wither, wither_skeleton, zoglin, zombie,\040
             zombie_villager, zombified_piglin.
             
-            misc (could have been null, but misc. why?...): area_effect_cloud, armor_stand, arrow, boat, chest_boat, dragon_fireball,\040
-            end_crystal, evoker_fangs, experience_orb, eye_of_ender, falling_block, firework_rocket, glow_item_frame, iron_golem,\040
-            item, item_frame, fireball, leash_knot, lightning_bolt, llama_spit, marker (armor stand?), minecart, chest_minecart,\040
-            command_block_minecart, furnace_minecart, hopper_minecart, spawner_minecart, tnt_minecart, painting, tnt, shulker_bullet,\040
-            small_fireball, snow_golem, snowball, spectral_arrow, egg, ender_pearl, experience_bottle, potion, trident, villager,\040
-            wither_skull, player, fishing_bobber.
+            misc(48) (could have been null, but misc. why?...): area_effect_cloud, armor_stand, arrow, block_display, boat,\040
+            chest_boat, chest_minecart, command_block_minecart, dragon_fireball, egg, end_crystal, ender_pearl, evoker_fangs,\040
+            experience_bottle, experience_orb, eye_of_ender, falling_block, firework_rocket, furnace_minecart, glow_item_frame,\040
+            hopper_minecart, interaction, iron_golem, item, item_display, item_frame, fireball, leash_knot, lightning_bolt,\040
+            llama_spit, marker (armor stand), minecart, painting, potion, shulker_bullet, small_fireball, snow_golem, snowball,\040
+            spawner_minecart, spectral_arrow, text_display, tnt, tnt_minecart, trident, villager, wither_skull, player, fishing_bobber.
             
             Thanks for reading!
             """)
-    private final String authors = "vlad2305m, minecraft.fandom.com";
+    private final String authors = "vlad2305m, minecraft.wiki";
 
     public boolean isEnabled() {
         return enabled;
