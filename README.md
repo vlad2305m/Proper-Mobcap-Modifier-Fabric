@@ -9,7 +9,7 @@ Works on both client and server, not required on client.
 Configures for each spawn group:
 
 - Mob cap
-- Despawn start range (the 30s one) (aka 5 min)
+- Despawn start range (the 300s one) (aka 5 min)
 - Immediate despawn range
 - Is peaceful?
 - Is rare? (20s spawn cycle)
