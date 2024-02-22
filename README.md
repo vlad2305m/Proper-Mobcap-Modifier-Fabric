@@ -1,4 +1,4 @@
-# Proper-Mobcap-Modifier
+# [Proper-Mobcap-Modifier](https://modrinth.com/mod/proper-mobcap-modifier-(fabric))
 A simple mod to "properly" modify mobcaps
 
 This mod just modifies SpawnGroup enum getters to get the values from config instead. 100% Without magic.
